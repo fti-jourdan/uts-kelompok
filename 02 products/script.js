@@ -1,11 +1,16 @@
 let products = $( "#list-bike" );
 products.empty();
 
-datas = datas.products;
+datas = fetchData();
+
 datas.forEach( item => {
     const product = createCell( item );
     products.append( product );
 } );
+
+function fetchData () {
+    return finaldatas.motors;
+}
 
 function createCell ( item ) {
     var card = $( '<div class="card"></div>' );
@@ -15,18 +20,20 @@ function createCell ( item ) {
     card.append( img );
 
     cardbody = $( '<div class="card-body"></div>' );
-    title = $( "<h4 class=card-title card-title-centre></h4>" ).append( item.merk + " " + item.type );
-    harian = $( `<h5>Harian : ${ convert( item.harga.harian ) } </h5>` );
+    title = $( "<h4 class=\"card-title card-title-center text-center text-capitalize\"></h4>" )
+        .append( item.merk + " " + item.type + " " )
+        .append( `<sup>${ ( item.spesifikasi.tahun ) }</sup > ` );
+    harian = $( `<h5> Harian : ${ convert( item.harga.harian ) } </h5> ` );
     if ( item.merk.toLowerCase() === 'harley davidson' ) {
         cardbody.append( title ).append( harian );
 
-        btn = $( '<button type="submit" class="btn-rent">RENT</button>' );
+        btn = $( '<button type="submit" class="btn btn-primary btn-rent">RENT</button>' );
         cardbody.append( btn );
     } else {
-        mingguan = $( `<h5>Mingguan : ${ convert( item.harga.mingguan ) } </h5>` );
+        mingguan = $( `<h5> Mingguan : ${ convert( item.harga.mingguan ) } </h5> ` );
         cardbody.append( title ).append( harian ).append( mingguan );
 
-        btn = $( '<button type="submit" class="btn-rent">RENT</button>' );
+        btn = $( '<button type="submit" class="btn btn-primary btn-rent">RENT</button>' );
         cardbody.append( btn );
     }
 
@@ -97,47 +104,66 @@ $( "#merk-motor .dropdown-menu a" ).click( function () {
 
         case 'harley davidson':
             products.empty();
-            datas.forEach( item => {
-                if ( item.merk === teks ) {
-                    const product = createCell( item );
-                    products.append( product );
-                }
+            datas = fetchData();
+            datas = datas.filter( function ( objek ) {
+                return objek.merk == teks;
             } );
+
+            datas.forEach( item => {
+                const product = createCell( item );
+                products.append( product );
+            }
+            );
             break;
 
         case 'honda':
+
             products.empty();
-            datas.forEach( item => {
-                if ( item.merk === teks ) {
-                    const product = createCell( item );
-                    products.append( product );
-                }
+            datas = fetchData();
+            datas = datas.filter( function ( objek ) {
+                return objek.merk == teks;
             } );
 
+            datas.forEach( item => {
+                const product = createCell( item );
+                products.append( product );
+            }
+            );
             break;
 
         case 'suzuki':
+
             products.empty();
-            datas.forEach( item => {
-                if ( item.merk === teks ) {
-                    const product = createCell( item );
-                    products.append( product );
-                }
+            datas = fetchData();
+            datas = datas.filter( function ( objek ) {
+                return objek.merk == teks;
             } );
+
+            datas.forEach( item => {
+                const product = createCell( item );
+                products.append( product );
+            }
+            );
             break;
 
         case 'yamaha':
+
             products.empty();
-            datas.forEach( item => {
-                if ( item.merk === "yamaha" ) {
-                    const product = createCell( item );
-                    products.append( product );
-                }
+            datas = fetchData();
+            datas = datas.filter( function ( objek ) {
+                return objek.merk == "yamaha";
             } );
+
+            datas.forEach( item => {
+                const product = createCell( item );
+                products.append( product );
+            }
+            );
             break;
 
         default:
             products.empty();
+            datas = fetchData();
             datas.forEach( item => {
                 const product = createCell( item );
                 products.append( product );
@@ -156,4 +182,9 @@ function convert ( value ) {
         value = ( value / 1000 ) + " Rb";
     }
     return value;
-}
+};
+
+function slicing ( text ) {
+    text = text.toString();
+    return text.slice( -2 );
+};

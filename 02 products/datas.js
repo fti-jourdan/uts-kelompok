@@ -1,5 +1,5 @@
-var datas = {
-    "products": [
+var finaldatas = {
+    "motors": [
         {
             "id": "ymh001",
             "merk": "yamaha",
@@ -17,8 +17,7 @@ var datas = {
                 ]
             },
             "foto": [
-                "yamaha/Yamaha Soul GT AKS SSS.png",
-                "dan image lainnya klau ada"
+                "yamaha/Yamaha Soul GT AKS SSS.png"
             ],
             "harga": {
                 "harian": 80000,
@@ -43,8 +42,7 @@ var datas = {
                 ]
             },
             "foto": [
-                "yamaha/Yamaha Xride.png",
-                "dan image lainnya klau ada"
+                "yamaha/Yamaha Xride.png"
             ],
             "harga": {
                 "harian": 65000,
