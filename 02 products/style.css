@@ -1,0 +1,153 @@
+:root {
+  --dark-color: #141414;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #f3f3f3 !important;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  margin: 1rem;
+}
+
+nav {
+  background-color: #354a5f;
+  padding: 0;
+}
+
+nav .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav .container .navbar-brand {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.nav-link {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: #f3f3f3 !important;
+}
+
+/* Carousel part*/
+
+.carousel {
+  margin: 1.5rem;
+  height: 100vh;
+}
+
+.card-title-centre {
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.btn-rent {
+  width: 100%;
+  background: none;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+/* Product part */
+
+.product-show {
+  position: relative;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img {
+  object-fit: cover;
+}
+
+.card-horizontal img {
+  width: auto;
+}
+
+.list-handphone ul li p {
+  margin: auto;
+  size: 1.2rem;
+  text-align: center;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Drop Down */
+.dropdown-row {
+  align-items: flex-end;
+  column-gap: 10px !important;
+  padding: 5px 20px 5px 20px;
+}
+
+.add-bg {
+  background-color: #354a5f;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem !important  ;
+  }
+
+  .product-show {
+    grid-template-columns: 1fr;
+  }
+}

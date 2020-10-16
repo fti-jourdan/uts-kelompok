@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #f3f3f3 !important;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: #000000;
+}
+
+nav {
+  background-color: #354a5f;
+  padding: 0;
+}
+
+nav .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav .container .navbar-brand {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.nav-link {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: #f3f3f3 !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background: url("../image/about\ us/img2.jpg") no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  padding: auto;
+}
+
+.jumbotron-content {
+  width: fit-content;
+  margin: auto;
+  backdrop-filter: grayscale(0.1) opacity(0) !important;
+}
+
+.limit-width {
+  max-width: 50vw;
+  /* left: 50%; */
+  margin: auto;
+}
+.jumbotron-content > h1 {
+  font-weight: 500;
+}
+
+.jumbotron-content > p {
+  font-weight: 500;
+  font-size: x-large;
+}
+
+/* Description */
+.val-img {
+  top: 50%;
+  height: auto;
+  width: 100%;
+}
+
+li p {
+  text-indent: 2rem;
+}
+
+/* Carousel */
+body {
+  background-color: #000;
+}
+.carousel {
+  margin-top: 50px;
+}
+.carousel-inner {
+  min-height: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-content > h4 {
+  text-align: center;
+  margin: auto;
+  max-width: 75vw;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+}
+
+/* .centered-title {
+  margin: auto;
+} */
+
+.slide {
+  margin: 1.5rem;
+}
+
+footer {
+  background-color: #354a5f;
+}
+
+@media (max-width: 610px) {
+  .pt-4 .row .col-sm-1 {
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .fa-clock-o {
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+    visibility: collapse;
+  }
+  .fa-map-marker {
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+    visibility: collapse;
+  }
+}
