@@ -78,30 +78,13 @@ nav .container .navbar-brand {
   font-size: x-large;
 }
 
-/* Description */
-.val-img {
-  top: 50%;
-  height: auto;
+/* Carousel section */
+.carousel-item img {
+  height: 50vw;
   width: 100%;
+  object-fit: cover;
+  max-height: 700px;
 }
-
-li p {
-  text-indent: 2rem;
-}
-
-/* Carousel */
-body {
-  background-color: #000;
-}
-.carousel {
-  margin-top: 50px;
-}
-.carousel-inner {
-  min-height: 100px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -110,10 +93,30 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-.carousel-content > h4 {
-  text-align: center;
-  margin: auto;
-  max-width: 75vw;
+footer {
+  background-color: #354a5f !important;
+}
+
+.btn-rent {
+  width: 100%;
+  font-size: large !important;
+  font-weight: 500 !important;
+  /* font-stretch: extra-expanded !important; */
+  color: #000 !important;
+}
+
+.product-show {
+  position: relative;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.listing-to {
+  text-decoration: none;
 }
 
 iframe {
@@ -123,20 +126,28 @@ iframe {
   min-height: 350px;
 }
 
-/* .centered-title {
-  margin: auto;
-} */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+  color: #cccccc;
+}
 
 .background-opacitied {
   background: rgba(255, 255, 255, 0.7);
 }
 
-.slide {
-  margin: 1.5rem;
+@media (max-width: 1000px) {
+  .product-show {
+    grid-template-columns: 2fr 2fr;
+  }
 }
 
-footer {
-  background-color: #354a5f;
+@media (max-width: 500px) {
+  .product-show {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 610px) {
@@ -149,15 +160,6 @@ footer {
     height: 0;
   }
 
-  .fa-clock-o {
-    min-width: 0;
-    min-height: 0;
-    padding: 0;
-    margin: 0;
-    width: 0;
-    height: 0;
-    visibility: collapse;
-  }
   .fa-map-marker {
     min-width: 0;
     min-height: 0;

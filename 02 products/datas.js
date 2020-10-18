@@ -654,5 +654,313 @@ var finaldatas = {
             },
             "special": true
         }
+    ],
+    "mobils": [
+        {
+            "id": "tyt001",
+            "merk": "Toyota",
+            "type": "Innova",
+            "spesifikasi": {
+                "Kapasitas": 8,
+                "Mesin": "1998cc",
+                "tahun": 2020,
+                "kilometer": 67,
+                "detail": [
+                    "Warna: Putih",
+                    "Pengembangan model dilakukan oleh Toyota hingga membawa Innova terbaru ke kasta lebih tinggi",
+                    "Mulai dari fitur keselamatan, New Kijang Innova terbaru telah dibekali Dual SRS airbags, Curtain Shield Airbags, Side Airbags, dan Knee Airbag. Hadir juga fitur side impact beam, collapsible steering column, seat belt pretensioner dan force limiter.Belum usai sampai di situ, ada juga ABS & EBD, Hill Assist Control dan Vehicle Stability Controls sebagai fitur berkendara standar yang dipasang di Toyota New Innova.",
+                    "Sebagai mobil keluarga, tentunya ekspektasi kenyamanan dalam kabin menjadi prioritas untuk semua penumpang. New Kijang Innova terbaru mampu mewujudkannya. Pasalnya, kabin dirasa tetap lega meski diisi 7-8 penumpang.",
+
+                ]
+            },
+            "foto": [
+                "toyota/Toyota Innova.png",
+            ],
+            "harga": {
+                "harian": 400000,
+                "mingguan": 2300000
+            },
+            "special": false
+        },
+        {
+            "id": "tyt002",
+            "merk": "Toyota",
+            "type": "Corolla Altis",
+            "spesifikasi": {
+                "Mesin": "1789cc",
+                "tahun": 2019,
+                "kilometer": 53,
+                "Kapasitas": 5,
+                "detail": [
+                    "Warna: Putih",
+                    "Tampilan eksterior yang sporty dan mewah",
+                    "Fitur – fitur mobil yang cukup lengkap",
+                    "Interior yang nyaman dan mewah",
+                    "Kabin yang sangat luas"
+                ]
+            },
+            "foto": [
+                "toyota/Toyota Corolla Altis.jpg",
+                "dan image lainnya klau ada"
+            ],
+            "harga": {
+                "harian": 400000,
+                "mingguan": 2200000
+            },
+            "special": false
+        },
+        {
+            "id": "tyt003",
+            "merk": "Toyota",
+            "type": "Rush",
+            "spesifikasi": {
+                "Mesin": "1500cc",
+                "tahun": 2019,
+                "kilometer": 202,
+                "Kapasitas": 8,
+                "detail": [
+                    "Warna: Putih",
+                    "Fitur standar untuk kenyamanan penumpang sudah memadai",
+                    "Ada pembenahan dari sisi kenyamanan suspensi. Rush model sebelumnya memiliki bantingan suspensi sangat keras. Adanya VSC mampu mencegah mobil melintir",
+                    "Mesin 2NR-VE memiliki rasio kompresi besar yang bisa lebih irit dari 3SZ-VE.",
+                    "Sistem pengereman sudah cukup dengan adanya ABS dan EBD. Apalagi dibantu VSC HSA, pastinya dapat menjaga mobil tetap berada di lajurnya."
+                ]
+            },
+            "foto": [
+                "toyota/Toyota Rush.jpg"
+            ],
+            "harga": {
+                "harian": 600000,
+                "mingguan": 3500000
+            },
+            "special": false
+        },
+        {
+            "id": "tyt004",
+            "merk": "Toyota",
+            "type": "Yaris",
+            "spesifikasi": {
+                "Mesin": "1496cc",
+                "tahun": 2019,
+                "kilometer": 12333,
+                "Kapasitas": 5,
+                "detail": [
+                    "Warna: Putih",
+                    "Toyota Yaris dikenal sebagai salah satu model hatchback bernuansa sporty.",
+                    "Generasi terbaru Toyota Yaris memiliki berbagai fitur hiburan. Mulai dari head unit layar sentuh 7 inci dengan HD display untuk memutar DVD, Radio FM/AM, SUV, Aux, dan Bluetooth. Sedangkan mobil Yaris TRD Sportivo memiliki fitur iPod Ready, Miracast, Web link, dan remote apps melalui smartphone.",
+                    "Sebagai mobil keluarga, tentunyDibandingkan pesaingnya, Toyota Yaris masih menghadirkan sistem keselamatan yang terbilang lengkap. Mobil Yaris Toyota terbaru sudah mendapatkan fitur STAR Safety System dengan teknologi Vehicle Stability Control, sistem pengereman ABS+EBD+BA, serta kontrol traksi.a ekspektasi kenyamanan dalam kabin menjadi prioritas untuk semua penumpang. New Kijang Innova terbaru mampu mewujudkannya. Pasalnya, kabin dirasa tetap lega meski diisi 7-8 penumpang."
+
+                ]
+            },
+            "foto": [
+                "toyota/Toyota Yaris.jpg"
+            ],
+            "harga": {
+                "harian": 350000,
+                "mingguan": 2000000
+            },
+            "special": false
+        },
+        {
+            "id": "dhs001",
+            "merk": "Daihatsu",
+            "type": "Ayla",
+            "spesifikasi": {
+                "Mesin": "1000cc",
+                "tahun": 2018,
+                "kilometer": 1452,
+                "Kapasitas": 5,
+                "detail": [
+                    "Warna: Orange",
+                    "Peningkatan fitur Ayla yang kini lebih fungsional dan tepat guna. Contohnya, pemasangan kamera parkir.Visual yang disampaikan layar 7-inci baru, memudahkan saat Anda mundur atau parkir"
+
+                ]
+            },
+            "foto": [
+                "daihatsu/Daihatsu Ayla.jpg"
+            ],
+            "harga": {
+                "harian": 350000,
+                "mingguan": 2200000
+            },
+            "special": false
+        },
+        {
+            "id": "dhs002",
+            "merk": "Daihatsu",
+            "type": "Sigra",
+            "spesifikasi": {
+                "Mesin": "998cc",
+                "tahun": 2018,
+                "kilometer": 2538,
+                "Kapasitas": 8,
+                "detail": [
+                    "Warna: Biru",
+                    "Meskipun menjadi salah satu mobil termurah di Indonesia, tapi Daihatsu tak pelit fitur keselamatan untuk Sigra. Sebut saja rem ABS (Anti-lock Brake System) plus EBD (Electronic Brake Force Distribution), dual SRS Airbag, sensor parkir depan belakang hingga satu-satunya di kelasnya, kamera parkir disematkan pada mobil Daihatsu Sigra.",
+                    "Dimensi mobil Daihatsu Sigra memang ringkas. Tapi penumpang depan dan kursi baris kedua masih cukup nyaman.",
+                    "Terdapat sistem multimedia layar sentuh yang mampu memutar musik dari smartphone atau melakukan panggilan dan menerima telepon melalui sambungan Bluetooth. Sistem multimedianya ini juga menyediakan konektivitas USB."
+                ]
+            },
+            "foto": [
+                "daihatsu/Daihatsu Sigra.jpg"
+            ],
+            "harga": {
+                "harian": 480000,
+                "mingguan": 2600000
+            },
+            "special": false
+        },
+        {
+            "id": "dhs003",
+            "merk": "Daihatsu",
+            "type": "Terios",
+            "spesifikasi": {
+                "Mesin": "1496cc",
+                "tahun": 2019,
+                "kilometer": 1102,
+                "Kapasitas": 8,
+                "detail": [
+                    "Warna: Putih",
+                    "Desain baru lebih segar",
+                    "Varian lumayan banyak",
+                    "Mesin baru yang lebih canggih",
+                    "AC double blower, dimensi besar dan sistem multimedia cukup lengkap"
+                ]
+            },
+            "foto": [
+                "daihatsu/Daihatsu Terios.jpg"
+            ],
+            "harga": {
+                "harian": 650000,
+                "mingguan": 3800000
+            },
+            "special": false
+        },
+        {
+            "id": "dhs004",
+            "merk": "Daihatsu",
+            "type": "Xenia",
+            "spesifikasi": {
+                "Mesin": "1300cc",
+                "tahun": 2018,
+                "kilometer": 2276,
+                "Kapasitas": 8,
+                "detail": [
+                    "Warna: Putih",
+                    "Daihatsu Xenia ini juga mengusung gaya desain elegan yang memunculkan aura kemewahannya sehingga meski tampak simple namun tetap terlihat modern dan elegan.",
+                    "Dengan adanya ruang yang luas penumpang pun akan merasa lebih nyaman mengingat memiliki ruang gerak yang lebih luas.Dengan demikian tentunya ruang kabin yang berukuran lega ini menjadi kelebihan Daihatsu Xenia yang memang tak terbantahkan."
+
+                ]
+            },
+            "foto": [
+                "daihatsu/Daihatsu Xenia.jpg"
+            ],
+            "harga": {
+                "harian": 650000,
+                "mingguan": 3800000
+            },
+            "special": false
+        },
+        {
+            "id": "mcd001",
+            "merk": "Mercedes",
+            "type": "A Class A-200",
+            "spesifikasi": {
+                "Mesin": "1796cc",
+                "tahun": 2018,
+                "kilometer": 1425,
+                "Kapasitas": 5,
+                "detail": [
+                    "Warna: Putih",
+                    "Yang pertama, MBUX atau Mercedes-Benz User Experience terbaru. Dengan fitur unik artificial intelligence, sistem mampu mempelajari preferensi pengguna kendaraan. Sanggup menyesuaikan diri dengan pengguna. Lalu menciptakan hubungan emosional antara kendaraan, pengemudi dan penumpang.",
+                    "Keunggulan lain termasuk Widescreen Cockpit resolusi tinggi, dengan fitur operasi touch screen pada multimedia. Kemudian layar navigasi plus kontrol suara dengan pengenalan suara pemilik. Cukup menggunakan kata kunci 'Hey Mercedes'. Layar sentuh merupakan bagian dari konsep kontrol komprehensif MBUX. Terdiri dari head unit tujuh inci, panel sentuh di konsol tengah dan tombol kontrol sentuh pada kemudi. Termasuk konektivitas ke ponsel dengan Android Auto dan Apple CarPlay.",
+                    "Intelligent Drive jadi kelebihan ketiga. A-Class dibekali Expanded Active Brake Assist sebagai standar. Pada situasi tertentu, sistem secara efektif membantu mengurangi kecepatan. Terdapat penginderaan pada objek bergerak lambat, berhenti, pejalan kaki yang menyebrang dan pengendara sepeda. Fungsinya sebagai pencegahan risiko kecelakaan. Kemudian ia dipasang fitur Driving Assistance Systems. Termasuk cruise control, Active Parking Assist dan kamera mundur."
+                ]
+            },
+            "foto": [
+                "mercedes/Mecedes A Class A-200.jpg"
+            ],
+            "harga": {
+                "harian": 600000,
+                "mingguan": 3700000
+            },
+            "special": false
+        },
+        {
+            "id": "mcd002",
+            "merk": "Mercedes",
+            "type": "Mercedes C-Class",
+            "spesifikasi": {
+                "Mesin": "1991cc",
+                "tahun": 2018,
+                "kilometer": 296,
+                "Kapasitas": 5,
+                "detail": [
+                    "Warna: Putih",
+                    "Interior mewah Fitur",
+                    "Sistem keselamatan yang canggih",
+                    "Performa telah ditingkatkan"
+                ]
+            },
+            "foto": [
+                "mercedes/Mercedes C-Class.jpeg"
+            ],
+            "harga": {
+                "harian": 630000,
+                "mingguan": 3800000
+            },
+            "special": false
+        },
+        {
+            "id": "mcd002",
+            "merk": "Mercedes",
+            "type": "GLE 4Matic Coupe",
+            "spesifikasi": {
+                "Mesin": "2996cc",
+                "tahun": 2019,
+                "kilometer": 164,
+                "Kapasitas": 5,
+                "detail": [
+                    "Warna: Putih",
+                    "Desain eksterior gagah dan sporty",
+                    "Interior nyaman dan mewah dengan opsi bari ketiga",
+                    "Bahan bakar efisien",
+                    "Suspensi udara baru untuk pengendaraan mulus"
+                ]
+            },
+            "foto": [
+                "mercedes/Mercedes GLE 4Matic Coupe.jpeg"
+            ],
+            "harga": {
+                "harian": 800000,
+                "mingguan": 4500000
+            },
+            "special": false
+        },
+        {
+            "id": "mcd004",
+            "merk": "Mercedes",
+            "type": "S-Class Sedan",
+            "spesifikasi": {
+                "Mesin": "5980cc",
+                "tahun": 2019,
+                "kilometer": 324,
+                "Kapasitas": 5,
+                "detail": [
+                    "Warna: Hitam",
+                    "Teknologi ini memberikan keamanan bagi penendara berupa peringata mengenai gaya mengemudi dan mencakup fungsi yang cukup banyak. Mulai dari Distronic Plus with steering assist, Bas Plus with cross-traffic assist, Pre Safe Brake with pedestrian recognition, Pre Safe Plus, Active Blind Spot assist, dan Active Lane Keeping assist.",
+                    "Fitur ini diklaim mampu menambah sisi efesiensi mobil yang bekerja secara otomatis mematikan mesin ketika mobil tidak berjalan atau sedang berhenti, dan akan mesin kembali menyala setelah pengemudi melepas pedal rem.",
+                    "Fungsi teknologi ini adalah untuk menambah sensasi serta kenyaman saat berkendara. Cara kerjanya dengan merubah setinggan suspensi secara otomatis menyesuaikan kontur jalan yang dilewati. Fitur ini bekerja menggunakan stereo-multipurpose camera atau intelligent drive yang mampu mengamati jalan di sekitar mobil dan mempersiapkan suspensi untuk mengambil tindakan sesuai gambar yang diterima kamera."
+                ]
+            },
+            "foto": [
+                "mercedes/Mercedes S-class Sedan.jpeg"
+            ],
+            "harga": {
+                "harian": 1000000,
+                "mingguan": 6300000
+            },
+            "special": false
+        }
     ]
 }

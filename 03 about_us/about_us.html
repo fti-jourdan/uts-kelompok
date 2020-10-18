@@ -25,20 +25,30 @@
 
   <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container">
-      <a class="navbar-brand navbar-nav mr-auto" href="#">MotoBike Rental</a>
+      <a class="navbar-brand navbar-nav mr-auto" href="../01 home/home.html">MotoBike Rental</a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ml-auto">
           <li data-toggle="collapse" data-target=".navbar-collapse">
-            <a href="#layanan" class="nav-item nav-link">Home</a>
+            <a href="../01 home/home.html" class="nav-item nav-link">Home</a>
+          </li>
+          <!-- <li data-toggle="collapse" data-target=".navbar-collapse">
+                <a href="#location-id" class="nav-item nav-link">Products</a>
+              </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Produk
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../02 products/list-motor.html">Motor</a>
+              <a class="dropdown-item" href="../02 products/list-mobil.html">Mobil</a>
+            </div>
+          </li>
           </li>
           <li data-toggle="collapse" data-target=".navbar-collapse">
-            <a href="#location-id" class="nav-item nav-link">Products</a>
-          </li>
-          <li data-toggle="collapse" data-target=".navbar-collapse">
-            <a href="#kontak" class="nav-item nav-link">About Us</a>
+            <a href="../03 about_us/about_us.html" class="nav-item nav-link">About Us</a>
           </li>
         </div>
       </div>
@@ -48,14 +58,14 @@
   <div class="jumbotron text-center">
     <div class="jumbotron-content p-3">
       <h1 class="display-3">MotoBike Center</h1>
-      <p class="lead limit-width mt-3">Layanan Rental Mobil dan Sepeda Motor Terbesar di Bali</p>
+      <p class="lead limit-width mt-3 background-opacitied">Layanan Rental Mobil dan Sepeda Motor Terbesar di Bali</p>
       <hr class="my-2">
-      <p class="limit-width ">merupakan layanan rental pertama yang merentalkan motor
+      <p class="limit-width background-opacitied">merupakan layanan rental pertama yang merentalkan motor
         dan mobil dari kelas menengah kebawah hingga kelas
         atas.</p>
     </div>
     <p class="lead mt-5">
-      <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Lihat Produk Kami</a>
+      <a class="btn btn-primary btn-lg" href="../02 products/list-motor.html" role=" button">Lihat Produk Kami</a>
     </p>
   </div>
 
@@ -119,14 +129,14 @@
         </div>
         <div class="pt-4">
           <div class="d-flex justify-content-around">
-            <button type="button" class="btn btn-fb"><i class="fa fa-facebook-f fa-3x"
-                style="color: #3b5998;"></i></button>
-            <button type="button" class="btn btn-tw"><i class="fa fa-twitter fa-3x"
-                style="color: #00acee;"></i></button>
-            <button type="button" class="btn btn-ins"><i class="fa fa-instagram fa-3x"
-                style="color: #E1306C;"></i></button>
-            <button type="button" class="btn btn-whatsapp"><i class="fa fa-whatsapp pr-1 fa-3x"
-                style="color: #25d366;"></i></button></div>
+            <button type="button" onclick="location.href='https:\/\/facebook.com'" class="btn btn-fb"><i
+                class="fa fa-facebook-f fa-3x" style="color: #3b5998;"></i></button>
+            <button type="button" onclick="location.href='https:\/\/twitter.com'" class="btn btn-tw"><i
+                class="fa fa-twitter fa-3x" style="color: #00acee;"></i></button>
+            <button type="button" onclick="location.href='https:\/\/instagram.com'" class="btn btn-ins"><i
+                class="fa fa-instagram fa-3x" style="color: #E1306C;"></i></button>
+            <button type="button" onclick="location.href='https:\/\/wa.me/0123456789'" class="btn btn-whatsapp"><i
+                class="fa fa-whatsapp pr-1 fa-3x" style="color: #25d366;"></i></button></div>
         </div>
       </div>
       <div class="col-md-6 align-self-center p-4"><iframe
@@ -191,8 +201,8 @@
           <!-- Links -->
           <h6 class="text-uppercase font-weight-bold text-white">Products</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p><a href="#!">Motor</a></p>
-          <p><a href="#!">Mobil</a></p>
+          <p><a href="../02 products/list-motor.html">Motor</a></p>
+          <p><a href="../02 products/list-mobil.html">Mobil</a></p>
         </div>
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -205,11 +215,10 @@
       </div>
 
       <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MotoBikeRental.com</a>
+        <a href="../01 home/home.html"> MotoBikeRental.com</a>
       </div>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 
 </html>
