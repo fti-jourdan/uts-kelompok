@@ -61,7 +61,7 @@ nav .container .navbar-brand {
 .jumbotron-content {
   width: fit-content;
   margin: auto;
-  backdrop-filter: grayscale(0.1) opacity(0) !important;
+  /* backdrop-filter: grayscale(0.1) opacity(0) !important; */
 }
 
 .limit-width {
