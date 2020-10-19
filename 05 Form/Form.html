@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
+    
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
     <!-- <link rel="stylesheet" href="main.js" /> -->
   
   </head>
@@ -23,34 +24,105 @@
     <div class="wrapper"> 
       <div class="aggreement-form">
         <div class="input-fields">
-        <h1> Agreement Form</h1>
+        <h1> Formulir Pemesanan</h1>
         <input type="text" class="input" placeholder="Nama">
         <input type="text" class="input" placeholder="No KTP">
         <input type="text" class="input" placeholder="Email">
         <input type="text" class="input" placeholder="No Telepon">
         <br>
-        <h4>Pilih lamanya waktu sewa yang anda inginkan: </h4>
-        <label class="radio">
-        <input class="radio-one" type="radio" checked="checked" >
-        <span class="checkmark"></span>
-        Perhari
-        </label>
-        <label class="radio">
-        <input class="radio-two" type="radio">
-        <span class="checkmark"></span>
-        Perminggu
-        </label>
-        <input type="text" class="input" placeholder="Jumlah hari / minggu yang ingin anda sewa">
-
+        
+        <h4>Kapan anda mau mulai menyewa:</h4>
+        <section class="col-sm-4">
+          <form>
+            <div class="form-group">
+                <div class='input-group date' id='datepicker'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </form>
+        </section>
+        
+        <h4>Sampai tanggal berapa anda mau menyewanya:</h4>
+        <section class="col-sm-4">
+          <form>
+            <div class="form-group">
+                <div class='input-group date' id='datepickerend'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </form>
+        </section>
+        
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+        <script >
+            $(function () {
+                $('#datepicker').datepicker({
+                    format: "dd/mm/yyyy",
+                    autoclose: true,
+                    todayHighlight: true,
+                  showOtherMonths: true,
+                  selectOtherMonths: true,
+                  autoclose: true,
+                  changeMonth: true,
+                  changeYear: true,
+                  orientation: "button"
+                  
+                });
+            });
+        
+            $(function () {
+                $('#datepickerend').datepickerend({
+                    format: "dd/mm/yyyy",
+                    autoclose: true,
+                    todayHighlight: true,
+                  showOtherMonths: true,
+                  selectOtherMonths: true,
+                  autoclose: true,
+                  changeMonth: true,
+                  changeYear: true,
+                  orientation: "button"
+                });
+            });
+        </script>
         <br>
 
         <h4>Upload foto KTP anda </h4>
         <div class="content">
           <div class="icon"><i class="fa fa-upload"></i></div>
-          <div class="text">Upload your image. Max 2MB!</div>
+          <div class="text">File Maksimal 2MB!</div>
           
         </div>
-        <div class="btn1">Upload Image</div>
+
+        <input type="file" id="photo" hidden="hidden" />
+        <button type="button" id="custom-button">Upload File</button>
+        <span id="custom-text"></span>
+
+        <script type="text/javascript">
+        const photobtn = document.getElementById("photo");
+        const custombtn = document.getElementById("custom-button");
+        const customtxt = document.getElementById("custom-text");
+
+        custombtn.addEventListener("click", function(){
+          photobtn.click();
+        });
+
+        photobtn.addEventListener("change", function(){
+          if(photobtn.value){
+            customtxt.innerHTML = photobtn.value;
+          }else{
+            customtxt.innerHTML = "Belum ada file yang di upload. ";
+          }
+        })
+        </script>
+
+
         <div class="btn2">BOOK</div>
       </div>
       

@@ -76,7 +76,7 @@ body{
   height: 40px;
 }
 
-.btn1{
+#custom-button{
   background: #39b7dd;
   margin-top: 20px;
   text-align: center;
@@ -125,3 +125,4 @@ body{
   padding-top: 20px ;
   font-size: 50px;
 }
+
