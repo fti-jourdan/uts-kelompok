@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,14 +10,15 @@ html {
   font-family: sans-serif;
 }
 
-body{
-  background-image: url(../img2.jpg);
+body {
+  background-image: url("../image/about\ us/img2.jpg");
   background-size: cover;
-  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.wrapper{
-  margin-top: 150px;
+.wrapper {
+  margin-top: 130px;
   margin-bottom: 50px;
   position: absolute;
   top: 50%;
@@ -26,32 +27,31 @@ body{
   padding: 0 20px;
 }
 
-.aggreement-form{
+.aggreement-form {
   max-width: 600px;
   margin: 0 auto;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   padding: 30px;
   border-radius: 5px;
   display: flex;
-  box-shadow: 0 0 10px rgba(0,0,0,0.13);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 }
-.aggreement-form h4{
+.aggreement-form h4 {
   color: #c5ecfd;
   font-size: 12px;
 }
-.input-fields h1{
+.input-fields h1 {
   text-align: center;
   color: #c5ecfd;
-  
 }
 
-.input-fields{
+.input-fields {
   display: flex;
   flex-direction: column;
   margin-right: 4%;
   width: 500px;
 }
-.input-fields .input{
+.input-fields .input {
   margin: 10px 0;
   background: transparent;
   border: 0;
@@ -61,10 +61,10 @@ body{
   width: 100%;
 }
 
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
   color: #c5ecfd;
 }
-.btn2{
+.btn2 {
   background: #39b7dd;
   text-align: center;
   margin-top: 20px;
@@ -76,7 +76,7 @@ body{
   height: 40px;
 }
 
-#custom-button{
+.btn1 {
   background: #39b7dd;
   margin-top: 20px;
   text-align: center;
@@ -90,15 +90,14 @@ body{
   height: 30px;
 }
 
-.radio{
-  
-  display: inline-block; 
+.radio {
+  display: inline-block;
   font-size: 15px;
   margin-left: 10px;
   margin-top: 10px;
   color: white;
 }
-.radio input{
+.radio input {
   width: 20px;
   height: 15px;
   border-radius: 50%;
@@ -106,23 +105,23 @@ body{
   outline: none;
 }
 
-.content{
+.content {
   height: 150px;
   width: 150px;
   border: 2px dashed #c2cdda;
 }
 
-.text{
+.text {
   text-align: center;
   font-size: small;
   padding-top: 10px;
   color: white;
 }
 
-.icon{
+.icon {
   color: white;
   text-align: center;
-  padding-top: 20px ;
+  padding-top: 20px;
   font-size: 50px;
 }
 
