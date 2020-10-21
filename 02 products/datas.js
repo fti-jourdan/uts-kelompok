@@ -4,6 +4,7 @@ var finaldatas = {
             "id": "ymh001",
             "merk": "yamaha",
             "type": "Soul GT AKS SSS",
+            "url": "Yamaha Soul GT.html",
             "spesifikasi": {
                 "Mesin": "125cc",
                 "tahun": 2019,
@@ -29,6 +30,7 @@ var finaldatas = {
             "id": "ymh002",
             "merk": "yamaha",
             "type": "Xride",
+            "url": "Yamaha Xride.html",
             "spesifikasi": {
                 "Mesin": "125cc",
                 "tahun": 2017,
@@ -54,6 +56,7 @@ var finaldatas = {
             "id": "ymh003",
             "merk": "yamaha",
             "type": "Mio M3",
+            "url": "Yamaha Mio M3.html",
             "spesifikasi": {
                 "Mesin": "125cc",
                 "tahun": 2020,
@@ -78,6 +81,7 @@ var finaldatas = {
             "id": "ymh004",
             "merk": "yamaha",
             "type": "Fino Sporty",
+            "url": "Yamaha Fino Sporty.html",
             "spesifikasi": {
                 "Mesin": "125cc",
                 "tahun": 2019,
@@ -103,6 +107,7 @@ var finaldatas = {
             "id": "ymh005",
             "merk": "yamaha",
             "type": "Aerox 155",
+            "url": "Yamaha Aerox 155.html",
             "spesifikasi": {
                 "Mesin": "155cc",
                 "tahun": 2018,
@@ -127,6 +132,7 @@ var finaldatas = {
             "id": "ymh006",
             "merk": "yamaha",
             "type": "Byson FI",
+            "url": "Yamaha Byson FI.html",
             "spesifikasi": {
                 "Mesin": "150cc",
                 "tahun": 2015,
@@ -151,6 +157,7 @@ var finaldatas = {
             "id": "ymh007",
             "merk": "yamaha",
             "type": "NMAX 155",
+            "url": "Yamaha Nmax 155.html",
             "spesifikasi": {
                 "Mesin": "155cc",
                 "tahun": 2018,
@@ -176,6 +183,7 @@ var finaldatas = {
             "id": "ymh008",
             "merk": "yamaha",
             "type": "Vixion R",
+            "url": "Yamaha Vixion R.html",
             "spesifikasi": {
                 "Mesin": "155cc",
                 "tahun": 2016,
@@ -200,6 +208,7 @@ var finaldatas = {
             "id": "ymh009",
             "merk": "yamaha",
             "type": "YZF R15",
+            "url": "Yamaha YZF R25.html",
             "spesifikasi": {
                 "Mesin": "155cc",
                 "tahun": 2018,
@@ -224,6 +233,7 @@ var finaldatas = {
             "id": "hnd001",
             "merk": "Honda",
             "type": "Scoopy",
+            "url": "Honda Scoopy.html",
             "spesifikasi": {
                 "Mesin": "110cc",
                 "tahun": 2017,
@@ -254,6 +264,7 @@ var finaldatas = {
             "id": "hnd002",
             "merk": "Honda",
             "type": "Supra X 125 FI",
+            "url": "Honda Supra x 125.html",
             "spesifikasi": {
                 "Mesin": "125cc",
                 "tahun": 2017,
@@ -277,6 +288,7 @@ var finaldatas = {
             "id": "hnd003",
             "merk": "Honda",
             "type": "Vario",
+            "url": "Honda Vario 125.html",
             "spesifikasi": {
                 "Mesin": "125cc",
                 "tahun": 2017,
@@ -301,6 +313,7 @@ var finaldatas = {
             "id": "hnd004",
             "merk": "Honda",
             "type": "Beat",
+            "url": "Honda beat.html",
             "spesifikasi": {
                 "Mesin": "110cc",
                 "tahun": 2018,
@@ -326,6 +339,7 @@ var finaldatas = {
             "id": "hnd005",
             "merk": "Honda",
             "type": "PCX Hybrid",
+            "url": "Honda PCX Hybrid.html",
             "spesifikasi": {
                 "Mesin": "150cc",
                 "tahun": 2019,
@@ -351,6 +365,7 @@ var finaldatas = {
             "id": "hnd006",
             "merk": "Honda",
             "type": "Forza",
+            "url": "Honda Forza.html",
             "spesifikasi": {
                 "Mesin": "250cc",
                 "tahun": 2018,
@@ -376,6 +391,7 @@ var finaldatas = {
             "id": "hnd007",
             "merk": "Honda",
             "type": "ADV150",
+            "url": "Honda ADV 150.html",
             "spesifikasi": {
                 "Mesin": "150cc",
                 "tahun": 2018,
@@ -399,6 +415,7 @@ var finaldatas = {
             "id": "hnd008",
             "merk": "Honda",
             "type": "CB150 Verza",
+            "url": "Honda CB150 Verza.html",
             "spesifikasi": {
                 "Mesin": "150cc",
                 "tahun": 2019,
@@ -422,6 +439,7 @@ var finaldatas = {
             "id": "hnd009",
             "merk": "Honda",
             "type": "CBR 150 R",
+            "url": "Honda CBR 150 R",
             "spesifikasi": {
                 "Mesin": "150cc",
                 "tahun": 2019,
@@ -445,6 +463,7 @@ var finaldatas = {
             "id": "szk001",
             "merk": "Suzuki",
             "type": "Smash FI",
+            "url": "Suzuki Smash FI.html",
             "spesifikasi": {
                 "Mesin": "110cc",
                 "tahun": 2018,
@@ -469,6 +488,7 @@ var finaldatas = {
             "id": "szk002",
             "merk": "Suzuki",
             "type": "Nex II cross",
+            "url": "Suzuki Nex II Cross.html",
             "spesifikasi": {
                 "Mesin": "115cc",
                 "tahun": 2016,
@@ -493,6 +513,7 @@ var finaldatas = {
             "id": "szk003",
             "merk": "Suzuki",
             "type": "Satria F150",
+            "url": "Suzuki Satria.html",
             "spesifikasi": {
                 "Mesin": "150cc",
                 "tahun": 2017,
@@ -516,6 +537,7 @@ var finaldatas = {
             "id": "szk004",
             "merk": "Suzuki",
             "type": "GSX150 Bandit",
+            "url": "Suzuki GSX 150 Bandit.html",
             "spesifikasi": {
                 "Mesin": "150cc",
                 "tahun": 2018,
@@ -539,6 +561,7 @@ var finaldatas = {
             "id": "szk005",
             "merk": "Suzuki",
             "type": "GSX-S150",
+            "url": "Suzuki GSX-S150.html",
             "spesifikasi": {
                 "Mesin": "150cc",
                 "tahun": 2018,
@@ -563,6 +586,7 @@ var finaldatas = {
             "id": "hly001",
             "merk": "Harley Davidson",
             "type": "Street Bob",
+            "url": "Street Bob.html",
             "spesifikasi": {
                 "Mesin": "1745cc",
                 "tahun": 2018,
@@ -589,6 +613,7 @@ var finaldatas = {
             "id": "hly002",
             "merk": "Harley Davidson",
             "type": "Fat Bob",
+            "url": "Fat Boy.html",
             "spesifikasi": {
                 "Mesin": "1868cc",
                 "tahun": 2018,
@@ -601,7 +626,7 @@ var finaldatas = {
                 ]
             },
             "foto": [
-                "harleydavidson/Fat Bob.jpg"
+                "harleydavidson/Fat Boy.jpg"
             ],
             "harga": {
                 "harian": 15000000
@@ -612,6 +637,7 @@ var finaldatas = {
             "id": "hly003",
             "merk": "Harley Davidson",
             "type": "Forty-Eight",
+            "url": "Forty-Eight.html",
             "spesifikasi": {
                 "Mesin": "1202 cc",
                 "tahun": 2018,
@@ -634,6 +660,7 @@ var finaldatas = {
             "id": "hly004",
             "merk": "Harley Davidson",
             "type": "Ultra",
+            "url": "Ultra.html",
             "spesifikasi": {
                 "Mesin": "1923cc",
                 "tahun": 2018,
@@ -660,6 +687,7 @@ var finaldatas = {
             "id": "tyt001",
             "merk": "Toyota",
             "type": "Innova",
+            "url": "Toyota Innova.html",
             "spesifikasi": {
                 "Kapasitas": 8,
                 "Mesin": "1998cc",
@@ -686,6 +714,7 @@ var finaldatas = {
             "id": "tyt002",
             "merk": "Toyota",
             "type": "Corolla Altis",
+            "url": "Toyota Corolla.html",
             "spesifikasi": {
                 "Mesin": "1789cc",
                 "tahun": 2019,
@@ -713,6 +742,7 @@ var finaldatas = {
             "id": "tyt003",
             "merk": "Toyota",
             "type": "Rush",
+            "url": "Toyota rush.html",
             "spesifikasi": {
                 "Mesin": "1500cc",
                 "tahun": 2019,
@@ -739,6 +769,7 @@ var finaldatas = {
             "id": "tyt004",
             "merk": "Toyota",
             "type": "Yaris",
+            "url": "Toyota Yaris.html",
             "spesifikasi": {
                 "Mesin": "1496cc",
                 "tahun": 2019,
@@ -765,6 +796,7 @@ var finaldatas = {
             "id": "dhs001",
             "merk": "Daihatsu",
             "type": "Ayla",
+            "url": "Daihatsu Ayla.html",
             "spesifikasi": {
                 "Mesin": "1000cc",
                 "tahun": 2018,
@@ -789,6 +821,7 @@ var finaldatas = {
             "id": "dhs002",
             "merk": "Daihatsu",
             "type": "Sigra",
+            "url": "Daihatsu Sigra",
             "spesifikasi": {
                 "Mesin": "998cc",
                 "tahun": 2018,
@@ -814,6 +847,7 @@ var finaldatas = {
             "id": "dhs003",
             "merk": "Daihatsu",
             "type": "Terios",
+            "url": "Daihatsu Terios",
             "spesifikasi": {
                 "Mesin": "1496cc",
                 "tahun": 2019,
@@ -840,6 +874,7 @@ var finaldatas = {
             "id": "dhs004",
             "merk": "Daihatsu",
             "type": "Xenia",
+            "url": "Daihatsu Xenia.html",
             "spesifikasi": {
                 "Mesin": "1300cc",
                 "tahun": 2018,
@@ -865,6 +900,7 @@ var finaldatas = {
             "id": "mcd001",
             "merk": "Mercedes",
             "type": "A Class A-200",
+            "url": "Mercedes A-Class.html",
             "spesifikasi": {
                 "Mesin": "1796cc",
                 "tahun": 2018,
@@ -890,6 +926,7 @@ var finaldatas = {
             "id": "mcd002",
             "merk": "Mercedes",
             "type": "Mercedes C-Class",
+            "url": "Mercedes C-Class.html",
             "spesifikasi": {
                 "Mesin": "1991cc",
                 "tahun": 2018,
@@ -915,6 +952,7 @@ var finaldatas = {
             "id": "mcd002",
             "merk": "Mercedes",
             "type": "GLE 4Matic Coupe",
+            "url": "Mercedes GLE 4Matic Coupe.html",
             "spesifikasi": {
                 "Mesin": "2996cc",
                 "tahun": 2019,
@@ -941,6 +979,7 @@ var finaldatas = {
             "id": "mcd004",
             "merk": "Mercedes",
             "type": "S-Class Sedan",
+            "url": "Mercedes S-Class Sedan",
             "spesifikasi": {
                 "Mesin": "5980cc",
                 "tahun": 2019,
